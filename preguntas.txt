@@ -1,0 +1,3 @@
+Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
+Lo que sucecedio fue que solo imprimio wl primer nombre, el primer element del arreglo, debido a esto toco utilizer un  join
+para que resultara el nombre y aprelido.
