@@ -79,7 +79,7 @@ Buscamos cómo ejecutar desde línea de comandos un proyecto maven:
 
 Realizamos el cambio en la clase App.java para crear un saludo personalizado, basado en los parámetros de entrada a la aplicación.
 
-![image](https://github.com/user-attachments/assets/a12ec8fa-1aa9-41af-872b-e19b820c0bb0)
+
 
 Buscamos cómo enviar parámetros al plugin "exec".
 
@@ -90,6 +90,8 @@ Lo que sucecedio fue que solo imprimio el primer nombre, el primer elemento del 
 para que resultara el nombre y apellido.
 
 ## HACER EL ESQUELETO DE LA APLICACIÓN
+Realizamos el esqueleto según el laboratorio:
+
 
 
 
