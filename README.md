@@ -6,11 +6,11 @@
 *-Laura Sofia Gil Chaves.*
 
 ## Preguntas
--¿Cuál es su mayor utilidad?
+### -¿Cuál es su mayor utilidad?
 
 La herramienta Maven nos ayuda a facilitar y optimizar procesos de desarrolo y hacerlos en el menor tiempo posible. Además, nos proporciona sistema de información de proyectos y contrucción de calidad para así lograr buenas prácticas. 
 
--Fases de maven:
+### -Fases de maven:
 
 *Maven Validate*: Verifica la configuración y estructura de un proyecto sea correcta, validando que todas las dependecias esten disponibles. 
 
@@ -45,16 +45,16 @@ que verifican la interracion entre diferentes servicios dentro del proyecto.
 
 *Comando: mvn deploy*
 
--Ciclo de vida de la construcción:
+### -Ciclo de vida de la construcción:
 
 Existen 3 ciclos de vida de contrucción principales:
 *Default o build*: Este ciclo construye, prueba, empaqueta, e instalar un proyecto. 
 *Clean:* Maneja la limpieza del proyecto, eliminando compilaciones previas. 
 *Site:* Genera la documentación del proyecto.
 
--¿Para qué sirven los plugins?
+### -¿Para qué sirven los plugins?
 Los plugins amplia las funcionalidades a las aplicaciones web. 
 
--¿Qué es y para qué sirve el repositorio central de maven?
+### -¿Qué es y para qué sirve el repositorio central de maven?
 
 Es un repositorio público que contiene colección de biblotecas para usar en los proyectos de Maven de manera centralizada y automatizasda. Nos sirve para gestión de versiones, plugins y acceso de dependencias.
