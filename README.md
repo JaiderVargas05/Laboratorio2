@@ -1,6 +1,8 @@
 # Laboratorio 02- Patterns
 *Nombres:*
+
 *-Jaider Vargas.*
+
 *-Laura Sofia Gil Chaves.*
 
 ## Preguntas
