@@ -12,44 +12,32 @@ La herramienta Maven nos ayuda a facilitar y optimizar procesos de desarrolo y h
 
 ### -Fases de maven:
 
-*Maven Validate*: Verifica la configuración y estructura de un proyecto sea correcta, validando que todas las dependecias esten disponibles. 
+![image](https://github.com/user-attachments/assets/d23f6ad4-13e9-4b32-957a-b52e2ad3f274)
 
-*Comando: mvn validate*
+*Maven Validate*: Verifica la configuración y estructura de un proyecto sea correcta, validando que todas las dependecias esten disponibles. (*Comando: mvn validate*)
 
-*Maven Compile:* Compila el código fuente del proyecto. Esto incluye la verificacioón de sintaxis y semántica. 
+*Maven Compile:* Compila el código fuente del proyecto. Esto incluye la verificacioón de sintaxis y semántica. (*Comando: mvn compile*)
 
-*Comando: mvn compile*
+*Maven Test:* Ejecuta las pruebas unitarias, que son escenciales para garatizar el comportamiento esperado. (*Comando: mvn test*)
 
-*Maven Test:* Ejecuta las pruebas unitarias, que son escenciales para garatizar el comportamiento esperado. 
+*Maven Package:* Encapsula el código compilado y los recuros asociados en un fromato de distribución. (*Comando: mvn package*)
 
-*Comando: mvn test*
+*Maven Integrartion Test:*  Hace pruebas de integración que verifican la interracion entre diferentes servicios dentro del proyecto. (*Comando: mvn integration-test*)
 
-*Maven Package:* Encapsula el código compilado y los recuros asociados en un fromato de distribución. 
+*Maven Verify:* Válida el empaquetamiento del código, comprobando  que cumple los lineamientos de calidad. (*Comando: mvn verify*)
 
-*Comando: mvn package*
+*Maven Install: *  Instala el empaquetamiento del código del repositorio local de Maven, permitiendo que se reutilize como dependencia en otros proyectos. (*Comando: mvn install*)
 
-*Maven Integrartion Test:*  Hace pruebas de integración
-que verifican la interracion entre diferentes servicios dentro del proyecto.
-
-*Comando: mvn integration-test*
-
-*Maven Verify:* Válida el empaquetamiento del código, comprobando  que cumple los lineamientos de calidad.
-
-*Comando: mvn verify*
-
-*Maven Install: *  Instala el empaquetamiento del código del repositorio local de Maven, permitiendo que se reutilize como dependencia en otros proyectos. 
-
-*Comando: mvn install*
-
-*Maven Deploy:* Despliega el código aun repositorio remoto o a un entorno de producción para ser ejecutado.
-
-*Comando: mvn deploy*
+*Maven Deploy:* Despliega el código aun repositorio remoto o a un entorno de producción para ser ejecutado. (*Comando: mvn deploy*)
 
 ### -Ciclo de vida de la construcción:
 
 Existen 3 ciclos de vida de contrucción principales:
+
 *Default o build*: Este ciclo construye, prueba, empaqueta, e instalar un proyecto. 
+
 *Clean:* Maneja la limpieza del proyecto, eliminando compilaciones previas. 
+
 *Site:* Genera la documentación del proyecto.
 
 ### -¿Para qué sirven los plugins?
