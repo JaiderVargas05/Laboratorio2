@@ -51,18 +51,22 @@ Es un repositorio público que contiene colección de biblotecas para usar en lo
 ## CREAR UNPROYECTO CON MAVEN
 
 Realizamos la búsqueda de cómo se crea el proyecto maven con ayuda de arquetipos. Además, cómo ejecutar desde línea de comandos el objetivo "generate" del plugin "archetype",con los siguientes parámetros:
+
 Grupo: edu.eci.cvds
 Id del Artefacto: Patterns
 Paquete: edu.eci.cvds.patterns
 archetypeArtifactId: maven-archetype-quickstart
+
 Para visualizar la estructura usamos el comando:
 *cd Patterns
 tree /f*
+
 ![image](https://github.com/user-attachments/assets/e1998679-5bcb-4c01-8987-318dd792ebc7)
 
 ## AJUSTAR ALGUNAS CONFIGURACIONES EN EL PROYECTO
 
 Hay que cambiar la version del compilador de Java a la versión 8, para ello, agregue la sección properties antes de la sección de dependencias:
+
 ![image](https://github.com/user-attachments/assets/70ebdfd6-f22c-438a-9d1b-86beb440fdfc)
 
 ## COMPILAR Y EJECUTAR
@@ -70,11 +74,15 @@ Para compilar el proyecto de maven se usa el comando:
 *mvn package*
 Buscamos cómo ejecutar desde línea de comandos un proyecto maven:
 *mvn exec:java -Dexec.mainClass="edu.eci.cvds.patterns.App"*
+
 ![image](https://github.com/user-attachments/assets/6a10e2a5-0b87-465c-a96d-1e1594d53bc9)
+
 Realizamos el cambio en la clase App.java para crear un saludo personalizado, basado en los parámetros de entrada a la aplicación.
+
 ![image](https://github.com/user-attachments/assets/a12ec8fa-1aa9-41af-872b-e19b820c0bb0)
 
 Buscamos cómo enviar parámetros al plugin "exec".
+
 ![image](https://github.com/user-attachments/assets/b1b822e5-2776-44e9-a091-66cc12237133)
 
 Ejecutar la clase con su nombre y apellido como parámetro. ¿Qué sucedió?
